@@ -1,4 +1,5 @@
 This is a specific study into a pay-hack providers methodology.
+Credit goes to the specific individuals which devoted a lot of time to discover this growing problem on FiveM, their identities are redacted.
 
 # Analysis
 Most FiveM malware is formed around Remote Execution/Administration Tool (RAT). 4 lines of Lua code are written into resources (many of them obfuscate the code) which will download remote code from the external servers. We've found many leaked resources are infected with this type of malware. This repository will talk more about how it works works.
