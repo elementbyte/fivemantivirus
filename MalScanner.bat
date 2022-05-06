@@ -1,16 +1,16 @@
 @echo off
 echo [MalScanner] Welcome. Press enter to begin scanning.
 pause
-echo [MalScanner] Cipher Malware A checked
+echo [MalScanner] Malware A checked
 findstr /s /m "random_char" *.lua
 echo ------------------------------------
-echo [MalScanner] Cipher Malware B checked
+echo [MalScanner] Malware B checked
 findstr /s /m "Enchanced_Tabs" *.lua
 echo ------------------------------------
-echo [MalScanner] Cipher Malware C checked
+echo [MalScanner] Malware C checked
 findstr /s /m "helpCode" *.lua
 echo ------------------------------------
-echo [MalScanner] Cipher Malware D checked
+echo [MalScanner] Malware D checked
 findstr /s /m "assert(load(d))" *.lua
 echo ------------------------------------
 if %errorlevel%==0 (
