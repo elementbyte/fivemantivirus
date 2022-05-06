@@ -16,6 +16,6 @@ echo [NetworkBlock] Blocked keyx.club
 echo.
 echo [NetworkBlock] Blocking Malware Vendor D...
 echo 127.0.0.1 dark-utilities.xyz >> %WINDIR%\System32\drivers\etc\hosts
-echo [NetworkBlockr] Blocked dark-utilities.xyz
+echo [NetworkBlock] Blocked dark-utilities.xyz
 echo.
 pause 
