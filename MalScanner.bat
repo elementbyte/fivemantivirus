@@ -21,13 +21,13 @@ set malwarefound=1
 )
 echo ------------------------------------
 echo [MalScanner] Malware D checked
-findstr /s /m "assert(load(d))" *.lua
+findstr /s /m "assert(load(" *.lua
 if %errorlevel%==0 (
 set malwarefound=1
 )
 echo ------------------------------------
 echo [MalScanner] Malware E checked
-findstr /s /m "zUlQELmVpVhoxJKnKBAZCPqptUIWWcpsYRVyJPlVIOAjDXMrQNVCCRtkFuAVknPcnpLkBJ" *.lua
+findstr /s /m "\x61\x73\x73\x65\x72\x74" *.lua
 if %errorlevel%==0 (
 set malwarefound=1
 )
