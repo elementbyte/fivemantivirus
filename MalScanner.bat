@@ -13,6 +13,9 @@ echo ------------------------------------
 echo [MalScanner] Malware D checked
 findstr /s /m "assert(load(d))" *.lua
 echo ------------------------------------
+echo [MalScanner] Malware E checked
+findstr /s /m "zUlQELmVpVhoxJKnKBAZCPqptUIWWcpsYRVyJPlVIOAjDXMrQNVCCRtkFuAVknPcnpLkBJ" *.lua
+echo ------------------------------------
 if %errorlevel%==0 (
 echo [MalScanner] Malware found! Check the above logged bad resource files. They contain malicious code. Use source comparison to remove it.
 ) else (
