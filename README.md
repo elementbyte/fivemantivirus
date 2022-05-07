@@ -1,4 +1,8 @@
-This is a specific study into a pay-hack providers methodology.
+- MalScanner.bat aims to check all of your servers resources for Malware.
+- NetworkBlock.bat aims to block malware-serving domain names, which are contacted when the infected resource is run.
+
+# About
+This is a specific study into a common pay-hack providers methodology.
 Credit goes to the specific individuals which devoted a lot of time to discover this growing problem on FiveM, their identities are redacted.
 
 # Analysis
