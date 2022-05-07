@@ -1,6 +1,9 @@
 - MalScanner.bat aims to check all of your servers resources for Malware.
 - NetworkBlock.bat aims to block malware-serving domain names, which are contacted when the infected resource is run.
 
+Run these two batch files on your server as Administrator. Use source comparison to remove infected code from detected .lua files. 
+**MalScanner.bat must be put inside your resources directory. Simply right click and run as Administrator once.**
+
 # About
 This is a specific study into a common pay-hack providers methodology.
 Credit goes to the specific individuals which devoted a lot of time to discover this growing problem on FiveM, their identities are redacted.
