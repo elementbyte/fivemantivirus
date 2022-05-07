@@ -48,9 +48,7 @@ Make sure to install the latest updates of whatever framework you are using for
 
 [QBCore](https://github.com/qbcore-framework/qb-core) | [QBCore Discord](https://discord.gg/qbcore) 
 
-Consider investing in a good anticheat for your server like [Phoenix Anticheat](https://discord.com/invite/pac) or [FiveEye](https://dsc.gg/FiveEye) or any other anti-cheat that you feel comfortable using.
-
-Buy resources from only reputable places that you feel comfortable purchasing from either Tebex listed stores or from places like [Modit](https://modit.store/), if you're unsure about a store, perhaps ask for guidance on the warden discord. 
+Buy resources from only reputable places that you feel comfortable purchasing from either Tebex listed stores or from places like [Modit](https://modit.store/), if you're unsure about a store, perhaps ask for guidance on the Warden discord. These people are great for pointing you to good, honest resource creators.
 
 Be extremely sketchy on code you get that is encrypted or downloaded from shady sources.
 
