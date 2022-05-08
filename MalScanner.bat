@@ -32,6 +32,12 @@ if %errorlevel%==0 (
 set malwarefound=1
 )
 echo ------------------------------------
+echo [MalScanner] Malware F checked
+findstr /s /m "helperServer" *.lua
+if %errorlevel%==0 (
+set malwarefound=1
+)
+echo ------------------------------------
 if %malwarefound%==1 (
 echo [MalScanner] Malware found! Check the above logged bad resource files. They contain malicious code. Use source comparison to remove it.
 ) else (
