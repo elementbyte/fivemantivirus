@@ -17,5 +17,8 @@ echo.
 echo [NetworkBlock] Blocking Malware Vendor D...
 echo 127.0.0.1 dark-utilities.xyz >> %WINDIR%\System32\drivers\etc\hosts
 echo [NetworkBlock] Blocked dark-utilities.xyz
+echo [NetworkBlock] Blocking Malware Vendor E...
+echo 127.0.0.1 spectre.sbs >> %WINDIR%\System32\drivers\etc\hosts
+echo [NetworkBlock] Blocked spectre.sbs
 echo.
 pause 
