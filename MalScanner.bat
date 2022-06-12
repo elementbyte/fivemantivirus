@@ -1,5 +1,6 @@
 @echo off
 set malwarefound=0
+echo You must put this in your resoures directory!
 echo [MalScanner] Welcome. Press enter to begin scanning.
 pause
 echo [MalScanner] Malware A checked
