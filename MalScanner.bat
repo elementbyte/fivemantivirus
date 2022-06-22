@@ -21,7 +21,7 @@ if %errorlevel%==0 (
 set malwarefound=1
 )
 echo ------------------------------------
-echo [MalScanner] Malware D checked
+echo [MalScanner] Malware D checked -- may be found in certain Cfx default resources, is a false positive
 findstr /s /m "assert(load(" *.lua
 if %errorlevel%==0 (
 set malwarefound=1
