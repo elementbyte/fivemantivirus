@@ -21,4 +21,8 @@ echo [NetworkBlock] Blocking Malware Vendor E...
 echo 127.0.0.1 spectre.sbs >> %WINDIR%\System32\drivers\etc\hosts
 echo [NetworkBlock] Blocked spectre.sbs
 echo.
+echo [NetworkBlock] Blocking Malware Vendor F...
+echo 127.0.0.1 ketamin.cc >> %WINDIR%\System32\drivers\etc\hosts
+echo [NetworkBlock] Blocked ketamin.cc
+echo.
 pause 
