@@ -25,4 +25,8 @@ echo [NetworkBlock] Blocking Malware Vendor F...
 echo 127.0.0.1 ketamin.cc >> %WINDIR%\System32\drivers\etc\hosts
 echo [NetworkBlock] Blocked ketamin.cc
 echo.
+echo [NetworkBlock] Blocking Malware Vendor G...
+echo 127.0.0.1 pqzskjptss.shop >> %WINDIR%\System32\drivers\etc\hosts
+echo [NetworkBlock] Blocked pqzskjptss.shop
+echo.
 pause 
