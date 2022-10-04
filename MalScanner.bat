@@ -28,7 +28,7 @@ set malwarefound=1
 )
 echo ------------------------------------
 echo [MalScanner] Malware E checked
-findstr /s /m "\x61\x73\x73\x65\x72\x74" *.lua
+findstr /s /m "\x50\x65\x72\x66\x6f\x72\x6d\x48\x74\x74\x70\x52\x65\x71\x75\x65\x73\x74" *.lua
 if %errorlevel%==0 (
 set malwarefound=1
 )
